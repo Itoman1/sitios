@@ -1,0 +1,54 @@
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: #ffffff;
+    background-color: #000 !important;
+}
+
+.sec1 {
+	border-top: 5px solid #8fd900;
+}
+
+.sec2 {
+    background-color: #f0f0f0 !important;
+    padding:0px !important ;
+}
+
+.sec19 {
+	border-top: 5px solid #8fd900;
+	background-color: #003b56;
+}
+
+a:hover {
+	text-decoration:none;
+}
+
+a > .bton , a:hover > .bton , .bton , .bton:hover {
+	text-decoration:none !important;
+}
+
+.bton {
+	display:inline-block ;
+}
+
+.nav-pills > li {
+    border-left: 1px solid yellow;
+}
+
+.nav-pills > li:first-child {
+    border-left: none;
+}
+
+.navbar { margin-bottom:0px ; }
+.navbar-inverse { background-color: #f0f0f0 !important; }
+.navbar-inverse , .navbar-inverse .navbar-collapse { border:none !important; }
+.navbar-inverse .navbar-nav > li > a { color:#777777 !important; font-size:18px !important; }
+.navbar-inverse .navbar-nav > li:hover > a { color:#006697 !important; }
+.navbar-inverse .navbar-toggle { border-color:#000000 !important; }
+
+
+.my_animacion_delay { opacity:0 ; -webkit-transform:scale(0.1, 0.1); -moz-transform:scale(0.1, 0.1); -ms-transform:scale(0.1, 0.1); -o-transform:scale(0.1, 0.1); transform:scale(0.1, 0.1); }
+.my_animacion_animar { -webkit-animation: my_animacion_animar_anim1 1s linear 0s 1 forwards; -moz-animation: my_animacion_animar_anim1 1s linear 0s 1 forwards; -o-animation: my_animacion_animar_anim1 1s linear 0s 1 forwards; animation: my_animacion_animar_anim1 1s linear 0s 1 forwards; }
+@-webkit-keyframes my_animacion_animar_anim1 { 0% { background:red; opacity:0; -webkit-transform:scale(0.1, 0.1); -moz-transform:scale(0.1, 0.1); -ms-transform:scale(0.1, 0.1); -o-transform:scale(0.1, 0.1); transform:scale(0.1, 0.1); } 100% { opacity:1; -webkit-transform:scale(1, 1); -moz-transform:scale(1, 1); -ms-transform:scale(1, 1); -o-transform:scale(1, 1); transform:scale(1, 1); } }
+@-moz-keyframes my_animacion_animar_anim1 { 0% { background:red; opacity:0; -webkit-transform:scale(0.1, 0.1); -moz-transform:scale(0.1, 0.1); -ms-transform:scale(0.1, 0.1); -o-transform:scale(0.1, 0.1); transform:scale(0.1, 0.1); } 100% { opacity:1; -webkit-transform:scale(1, 1); -moz-transform:scale(1, 1); -ms-transform:scale(1, 1); -o-transform:scale(1, 1); transform:scale(1, 1); } }
+@-o-keyframes my_animacion_animar_anim1 { 0% { background:red; opacity:0; -webkit-transform:scale(0.1, 0.1); -moz-transform:scale(0.1, 0.1); -ms-transform:scale(0.1, 0.1); -o-transform:scale(0.1, 0.1); transform:scale(0.1, 0.1); } 100% { opacity:1; -webkit-transform:scale(1, 1); -moz-transform:scale(1, 1); -ms-transform:scale(1, 1); -o-transform:scale(1, 1); transform:scale(1, 1); } }
+@keyframes my_animacion_animar_anim1 { 0% { background:red; opacity:0; -webkit-transform:scale(0.1, 0.1); -moz-transform:scale(0.1, 0.1); -ms-transform:scale(0.1, 0.1); -o-transform:scale(0.1, 0.1); transform:scale(0.1, 0.1); } 100% { opacity:1; -webkit-transform:scale(1, 1); -moz-transform:scale(1, 1); -ms-transform:scale(1, 1); -o-transform:scale(1, 1); transform:scale(1, 1); } }

@@ -1,0 +1,1 @@
+$('body').append('<a target="_blank" class="whatsapplink" href="https://api.whatsapp.com/send?phone=524721271839"><img alt="Contactanos via Whatsapp - GP Servicios Industriales" src="/images/imgs/whatsapp.png" style="width:60px; z-index:1000000000000; position:fixed; bottom:30px; right:16px;" class="pic2 whats2" /></a>');
