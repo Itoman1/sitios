@@ -1,0 +1,40 @@
+version: '3.1'
+
+services:
+
+  reverse-proxy:
+    image: jwilder/nginx-proxy:alpine
+    container_name: Reverse-Proxy
+    restart: always
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+
+  acrylicsheetsholder:
+    image: httpd
+    container_name: acrylicsheetsholder
+    restart: always
+    environment:
+      - VIRTUAL_HOST=itoman1.ddns.net
+    volumes:
+      - /storage/apache/acrylicsheetsholder:/usr/local/apache2/htdocs
+
+  portahojasdeacrilico:
+    image: httpd
+    container_name: portahojasdeacrilico
+    restart: always
+    environment:
+      - VIRTUAL_HOST=itoman2.ddns.net
+    volumes:
+      - /storage/apache/portahojasdeacrilico:/usr/local/apache2/htdocs
+
+  serviciosindustrialesmexico:
+    image: httpd
+    container_name: serviciosindustrialesmexico
+    restart: always
+    environment:
+      - VIRTUAL_HOST=itoman3.ddns.net
+    volumes:
+      - /storage/apache/serviciosindustrialesmexico:/usr/local/apache2/htdocs
